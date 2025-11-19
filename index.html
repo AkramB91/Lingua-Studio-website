@@ -1,420 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner Peace - Mindfulness & Mental Wellness</title>
+    <link href="tooplate-inner-peace.css" rel="stylesheet">
+<!--
 
-    <title>Lingua Studio : English made easy</title>
+Tooplate 2143 Inner Peace
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+https://www.tooplate.com/view/2143-inner-peace
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+Free HTML CSS Template
 
-  </head>
-
+-->
+</head>
 <body>
+    <div class="geometric-bg"></div>
 
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <h4>Lingua<span> Studio</span></h4>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#hero" class="logo">
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="20" cy="20" r="18" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <circle cx="20" cy="20" r="14" fill="none" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.7"/>
+                    <circle cx="20" cy="20" r="10" fill="none" stroke="url(#logoGradient)" stroke-width="1" opacity="0.5"/>
+                    <circle cx="20" cy="20" r="6" fill="none" stroke="url(#logoGradient)" stroke-width="0.5" opacity="0.3"/>
+                    <circle cx="20" cy="20" r="3" fill="url(#logoGradient)"/>
+                </svg>
+                <span class="logo-text">Inner Peace</span>
             </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#about">About Us</a></li>
-              <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#portfolio">Book Club</a></li>
-              <li class="scroll-to-section"><a href="#blog">Blog</a></li> 
-              <li class="scroll-to-section"><a href="#contact">Message Us</a></li> 
-              <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Contact Now</a></div></li> 
-            </ul>        
-            <a class='menu-trigger'>
-                <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-
-  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <h6>Welcome to Lingua Studio</h6>
-                <h2>We Make <em>English</em> &amp; <span>learning </span> better</h2>
-                <p>Lingua studio is an english learning center that everyone in this picture is confused and the dude who smiles doesn't understand anything.</p>
-                <form id="search" action="#" method="GET">
-                  <fieldset>
-                    <input type="address" name="address" class="email" placeholder="You email address" autocomplete="on" required>
-                  </fieldset>
-                  <fieldset>
-                    <button type="submit" class="main-button">Contact Us</button>
-                  </fieldset>
-                </form>
-              </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/banner-right-image.png" alt="team meeting">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="about" class="about-us section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <img src="assets/images/about-left-image.png" alt="person graphic">
-          </div>
-        </div>
-        <div class="col-lg-8 align-self-center">
-          <div class="services">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                  <div class="icon">
-                    <img src="assets/images/service-icon-01.png" alt="reporting">
-                  </div>
-                  <div class="right-text">
-                    <h4>Data Analysis</h4>
-                    <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
-                  <div class="icon">
-                    <img src="assets/images/service-icon-02.png" alt="">
-                  </div>
-                  <div class="right-text">
-                    <h4>Data Reporting</h4>
-                    <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
-                  <div class="icon">
-                    <img src="assets/images/service-icon-03.png" alt="">
-                  </div>
-                  <div class="right-text">
-                    <h4>Web Analytics</h4>
-                    <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
-                  <div class="icon">
-                    <img src="assets/images/service-icon-04.png" alt="">
-                  </div>
-                  <div class="right-text">
-                    <h4>SEO Suggestions</h4>
-                    <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="services" class="our-services section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div class="left-image">
-            <img src="assets/images/services-left-image.png" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div class="section-heading">
-            <h2>Grow your website with our <em>SEO</em> service &amp; <span>Project</span> Ideas</h2>
-            <p>Space Dynamic HTML5 template is free to use for your website projects. However, you are not permitted to redistribute the template ZIP file on any CSS template collection websites. Please contact us for more information. Thank you for your kind cooperation.</p>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="first-bar progress-skill-bar">
-                <h4>Website Analysis</h4>
-                <span>84%</span>
-                <div class="filled-bar"></div>
-                <div class="full-bar"></div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="second-bar progress-skill-bar">
-                <h4>SEO Reports</h4>
-                <span>88%</span>
-                <div class="filled-bar"></div>
-                <div class="full-bar"></div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="third-bar progress-skill-bar">
-                <h4>Page Optimizations</h4>
-                <span>94%</span>
-                <div class="filled-bar"></div>
-                <div class="full-bar"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="portfolio" class="our-portfolio section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <h2>See What Our Agency <em>Offers</em> &amp; What We <span>Provide</span></h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-              <div class="hidden-content">
-                <h4>SEO Analysis</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
-              </div>
-              <div class="showed-content">
-                <img src="assets/images/portfolio-image.png" alt="">
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-              <div class="hidden-content">
-                <h4>Website Reporting</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
-              </div>
-              <div class="showed-content">
-                <img src="assets/images/portfolio-image.png" alt="">
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-              <div class="hidden-content">
-                <h4>Performance Tests</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
-              </div>
-              <div class="showed-content">
-                <img src="assets/images/portfolio-image.png" alt="">
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-              <div class="hidden-content">
-                <h4>Data Analysis</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
-              </div>
-              <div class="showed-content">
-                <img src="assets/images/portfolio-image.png" alt="">
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="blog" class="our-blog section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="section-heading">
-            <h2>Check Out What Is <em>Trending</em> In Our Latest <span>News</span></h2>
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="top-dec">
-            <img src="assets/images/blog-dec.png" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="left-image">
-            <a href="#"><img src="assets/images/big-blog-thumb.jpg" alt="Workspace Desktop"></a>
-            <div class="info">
-              <div class="inner-content">
-                <ul>
-                  <li><i class="fa fa-calendar"></i> 24 Mar 2021</li>
-                  <li><i class="fa fa-users"></i> TemplateMo</li>
-                  <li><i class="fa fa-folder"></i> Branding</li>
-                </ul>
-                <a href="#"><h4>SEO Agency &amp; Digital Marketing</h4></a>
-                <p>Lorem ipsum dolor sit amet, consectetur and sed doer ket eismod tempor incididunt ut labore et dolore magna...</p>
-                <div class="main-blue-button">
-                  <a href="#">Discover More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="right-list">
-            <ul>
-              <li>
-                <div class="left-content align-self-center">
-                  <span><i class="fa fa-calendar"></i> 18 Mar 2021</span>
-                  <a href="#"><h4>New Websites &amp; Backlinks</h4></a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
-                </div>
-                <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
-                </div>
-              </li>
-              <li>
-                <div class="left-content align-self-center">
-                  <span><i class="fa fa-calendar"></i> 14 Mar 2021</span>
-                  <a href="#"><h4>SEO Analysis &amp; Content Ideas</h4></a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
-                </div>
-                <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
-                </div>
-              </li>
-              <li>
-                <div class="left-content align-self-center">
-                  <span><i class="fa fa-calendar"></i> 06 Mar 2021</span>
-                  <a href="#"><h4>SEO Tips &amp; Digital Marketing</h4></a>
-                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
-                </div>
-                <div class="right-image">
-                  <a href="#"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
-                </div>
-              </li>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#practices" class="nav-link">Practices</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </nav>
+    </header>
 
-  <div id="contact" class="contact-us section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <div class="section-heading">
-            <h2>Feel Free To Send Us a Message About Your Website Needs</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doer ket eismod tempor incididunt ut labore et dolores</p>
-            <div class="phone-info">
-              <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a href="#">010-020-0340</a></span></h4>
-            </div>
-          </div>
+    <!-- Hero Section with Enhanced Background -->
+    <section id="hero">
+        <!-- Network Background -->
+        <div class="network-bg">
+            <div class="network-line"></div>
+            <div class="network-line"></div>
+            <div class="network-line"></div>
+            <div class="network-line"></div>
+            <div class="network-line"></div>
+            <div class="network-line"></div>
+            <div class="network-line"></div>
+            <div class="network-line"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
+            <div class="network-dot"></div>
         </div>
-        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <form id="contact" action="" method="post">
-            <div class="row">
-              <div class="col-lg-6">
-                <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-6">
-                <fieldset>
-                  <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="main-button ">Send Message</button>
-                </fieldset>
-              </div>
-            </div>
-            <div class="contact-dec">
-              <img src="assets/images/contact-decoration.png" alt="">
-            </div>
-          </form>
+        
+        <div class="peace-bg">
+            <div class="breathing-circle"></div>
+            <div class="breathing-circle"></div>
+            <div class="breathing-circle"></div>
+            <div class="breathing-circle"></div>
         </div>
-      </div>
-    </div>
-  </div>
+        <div class="floating-elements">
+            <div class="zen-stone"></div>
+            <div class="zen-stone"></div>
+            <div class="zen-stone"></div>
+        </div>
+        <div class="mandala-bg">
+            <div class="mandala-circle"></div>
+            <div class="mandala-circle"></div>
+            <div class="mandala-circle"></div>
+        </div>
+        <div class="hero-content">
+            
+            <h1>Find Your Inner Peace</h1>
+            
+            <p>Journey towards mental wellness through mindfulness, meditation, and self-discovery</p>
+            
+            <a href="#about" class="cta-button">Begin Your Journey</a>
+        </div>
+    </section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
-          <p>© Copyright 2021 Space Dynamic Co. All Rights Reserved. 
-          
-          <br>Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+    <!-- About Section - Complete Redesign -->
+    <section id="about">
+        <h2 class="section-title">Discover Mindfulness</h2>
+        <p class="section-subtitle">
+            Transform your mind, transform your life
+        </p>
+        
+        <!-- Floating Cards Design -->
+        <div class="about-floating-cards">
+            <div class="floating-card">
+                <div class="card-icon">
+                    <div class="icon-wrapper">🧠</div>
+                </div>
+                <h3>Rewire Your Brain</h3>
+                <p>Neuroplasticity in action - just 10 minutes daily physically reshapes your brain for better focus and emotional control.</p>
+            </div>
+            
+            <div class="floating-card">
+                <div class="card-icon">
+                    <div class="icon-wrapper">⚡</div>
+                </div>
+                <h3>Instant Calm</h3>
+                <p>Access immediate stress relief through proven breathing techniques that activate your parasympathetic nervous system.</p>
+            </div>
+            
+            <div class="floating-card">
+                <div class="card-icon">
+                    <div class="icon-wrapper">🎯</div>
+                </div>
+                <h3>Peak Performance</h3>
+                <p>Achieve flow states more easily and unlock your full potential in work, creativity, and personal growth.</p>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
-  <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/templatemo-custom.js"></script>
 
+        <!-- Stats Banner -->
+        <div class="stats-banner">
+            <div class="stat-block">
+                <div class="stat-value">85%</div>
+                <div class="stat-desc">Stress Reduction</div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-value">3X</div>
+                <div class="stat-desc">Better Focus</div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-value">10K+</div>
+                <div class="stat-desc">Happy Members</div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-value">4.9★</div>
+                <div class="stat-desc">User Rating</div>
+            </div>
+        </div>
+
+        <!-- Feature Showcase -->
+        <div class="feature-showcase">
+            <div class="showcase-content">
+                <h3>Why Choose Inner Peace?</h3>
+                <ul class="feature-list">
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Science-backed techniques proven by neuroscience</span>
+                    </li>
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Personalized journey adapted to your needs</span>
+                    </li>
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Expert guidance from certified instructors</span>
+                    </li>
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Track your progress with real metrics</span>
+                    </li>
+                    <li>
+                        <span class="feature-check">✓</span>
+                        <span>Brought to you by Tooplate website</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practices Section - Enhanced Timeline Design -->
+    <section id="practices">
+        <div class="practices-container">
+            <h2 class="section-title">Mindfulness Practices</h2>
+            <p class="section-subtitle">Master these core practices to build your mindfulness toolkit</p>
+            
+            <div class="practice-layout">
+                <!-- Futuristic Left Timeline -->
+                <div class="timeline-track">
+                    <div class="timeline-progress"></div>
+                    <div class="timeline-points">
+                        <div class="timeline-point active">
+                            <div class="futuristic-label">
+                                <span class="label-text">Foundation</span>
+                            </div>
+                            <div class="timeline-indicator"></div>
+                        </div>
+                        <div class="timeline-point">
+                            <div class="futuristic-label">
+                                <span class="label-text">Breathing</span>
+                            </div>
+                            <div class="timeline-indicator"></div>
+                        </div>
+                        <div class="timeline-point">
+                            <div class="futuristic-label">
+                                <span class="label-text">Awareness</span>
+                            </div>
+                            <div class="timeline-indicator"></div>
+                        </div>
+                        <div class="timeline-point">
+                            <div class="futuristic-label">
+                                <span class="label-text">Integration</span>
+                            </div>
+                            <div class="timeline-indicator"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content Area -->
+                <div class="practice-content-area">
+                    <div class="practice-card-new">
+                        <div class="practice-header">
+                            <div class="practice-icon-new">🧘</div>
+                            <div class="practice-info">
+                                <h3>Foundation Meditation</h3>
+                                <span class="practice-duration">10-20 minutes daily</span>
+                            </div>
+                        </div>
+                        <p class="practice-description">
+                            Begin your journey with guided meditation sessions designed specifically for beginners. Learn the fundamental techniques of sitting meditation, including proper posture, attention anchoring, and working with wandering thoughts. Our progressive approach ensures you build a solid foundation without feeling overwhelmed.
+                        </p>
+                        <div class="practice-benefits">
+                            <a href="#" class="benefit-tag">Stress Reduction</a>
+                            <a href="#" class="benefit-tag">Mental Clarity</a>
+                            <a href="#" class="benefit-tag">Emotional Balance</a>
+                            <a href="#" class="benefit-tag">Better Sleep</a>
+                        </div>
+                    </div>
+
+                    <div class="practice-card-new">
+                        <div class="practice-header">
+                            <div class="practice-icon-new">🌬️</div>
+                            <div class="practice-info">
+                                <h3>Conscious Breathing</h3>
+                                <span class="practice-duration">5-10 minutes as needed</span>
+                            </div>
+                        </div>
+                        <p class="practice-description">
+                            Master the art of breath awareness with techniques that instantly calm your nervous system. From box breathing to 4-7-8 patterns, discover how different breathing exercises can energize, relax, or center you throughout your day. Perfect for managing anxiety and stress in real-time.
+                        </p>
+                        <div class="practice-benefits">
+                            <a href="#" class="benefit-tag">Instant Calm</a>
+                            <a href="#" class="benefit-tag">Energy Boost</a>
+                            <a href="#" class="benefit-tag">Focus Enhancement</a>
+                            <a href="#" class="benefit-tag">Anxiety Relief</a>
+                        </div>
+                    </div>
+
+                    <div class="practice-card-new">
+                        <div class="practice-header">
+                            <div class="practice-icon-new">📝</div>
+                            <div class="practice-info">
+                                <h3>Mindful Awareness</h3>
+                                <span class="practice-duration">15 minutes daily</span>
+                            </div>
+                        </div>
+                        <p class="practice-description">
+                            Develop meta-awareness through journaling and body scan practices. Learn to observe your thoughts, emotions, and physical sensations without judgment. This practice includes gratitude exercises, emotional check-ins, and reflective writing to deepen self-understanding.
+                        </p>
+                        <div class="practice-benefits">
+                            <a href="#" class="benefit-tag">Self-Discovery</a>
+                            <a href="#" class="benefit-tag">Emotional Intelligence</a>
+                            <a href="#" class="benefit-tag">Pattern Recognition</a>
+                            <a href="#" class="benefit-tag">Gratitude</a>
+                        </div>
+                    </div>
+
+                    <div class="practice-card-new">
+                        <div class="practice-header">
+                            <div class="practice-icon-new">🚶</div>
+                            <div class="practice-info">
+                                <h3>Living Mindfully</h3>
+                                <span class="practice-duration">Throughout the day</span>
+                            </div>
+                        </div>
+                        <p class="practice-description">
+                            Integrate mindfulness into every aspect of your daily life. From mindful eating to walking meditation, learn how to transform routine activities into opportunities for presence. Discover how to maintain awareness during work, conversations, and even challenging situations.
+                        </p>
+                        <div class="practice-benefits">
+                            <a href="#" class="benefit-tag">Present Living</a>
+                            <a href="#" class="benefit-tag">Joy in Simple Things</a>
+                            <a href="#" class="benefit-tag">Mindful Communication</a>
+                            <a href="#" class="benefit-tag">Work-Life Balance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section - Tab Structure -->
+    <section id="resources">
+        <h2 class="section-title">Resources & Tools</h2>
+        <p class="section-subtitle">Everything you need to support your mindfulness practice</p>
+        
+        <div class="resource-tabs">
+            <button class="tab-btn active" onclick="showTab('meditations')">Meditations</button>
+            <button class="tab-btn" onclick="showTab('courses')">Courses</button>
+            <button class="tab-btn" onclick="showTab('tools')">Tools</button>
+        </div>
+
+        <div id="meditations" class="tab-content active">
+            <div class="resource-list">
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail morning-meditation"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>Morning Meditation</h3>
+                        <p>Start your day with clarity and intention through our 15-minute morning practice.</p>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail stress-relief"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>Stress Relief Session</h3>
+                        <p>Quick 10-minute guided meditation for immediate stress and anxiety relief.</p>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail sleep-meditation"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>Sleep Meditation</h3>
+                        <p>Peaceful bedtime meditation to help you unwind and prepare for restful sleep.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="courses" class="tab-content">
+            <div class="resource-list">
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail mbsr-course"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>8-Week MBSR Program</h3>
+                        <p>Comprehensive Mindfulness-Based Stress Reduction course with certified instructors.</p>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail leadership-course"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>Mindful Leadership</h3>
+                        <p>Develop presence and emotional intelligence for effective leadership.</p>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail beginner-course"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>Beginner's Journey</h3>
+                        <p>30-day introduction to mindfulness with daily lessons and practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tools" class="tab-content">
+            <div class="resource-list">
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail timer-tool"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>Meditation Timer</h3>
+                        <p>Customizable timer with ambient sounds and interval bells for your practice.</p>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail mood-tracker"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>Mood Tracker</h3>
+                        <p>Monitor your emotional patterns and see how mindfulness impacts your well-being.</p>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-image">
+                        <div class="resource-thumbnail breathing-tool"></div>
+                    </div>
+                    <div class="resource-body">
+                        <h3>Breathing Exercises</h3>
+                        <p>Interactive breathing patterns for different situations and energy levels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Two Columns -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Connect With Us</h2>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>Visit Us</h4>
+                            <p>123 Wellness Street<br>Mindful City, MC 12345</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>hello@innerpeace.com<br>support@innerpeace.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567<br>Mon-Fri, 9am-6pm EST</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">💬</div>
+                        <div class="info-text">
+                            <h4>Live Chat</h4>
+                            <p>Available 24/7 for urgent support</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">t</a>
+                        <a href="#" class="social-link">i</a>
+                        <a href="#" class="social-link">l</a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 2rem;">Send a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#support">Support</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Inner Peace. All rights reserved. Nurturing minds, one breath at a time. 
+                Designed by <a rel="nofollow noopener" href="https://www.tooplate.com" target="_blank" style="color: var(--accent); text-decoration: none; transition: color 0.3s ease;">Tooplate</a></p>
+            </div>
+        </div>
+    </footer>
+<script src="tooplate-inner-peace-scripts.js"></script>
 </body>
 </html>
