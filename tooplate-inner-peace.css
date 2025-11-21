@@ -179,7 +179,7 @@ nav {
 
 /* Hero Section with Enhanced Animated Background */
 #hero {
-    min-height: 60vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -553,14 +553,6 @@ nav {
 	margin-bottom: 1rem;
 	animation: fadeInUp 1s ease;
 	text-align: center;
-}
-
-.hero-content p {
-	font-size: 1.3rem;
-	color: rgba(255, 255, 255, 0.9);
-	margin-bottom: 2rem;
-	animation: fadeInUp 1s ease 0.2s;
-	animation-fill-mode: both;
 }
 
 .hero-content p {
