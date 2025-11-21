@@ -182,7 +182,8 @@ nav {
     min-height: 70vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* pushes content top → bottom */
+    flex-direction: column; /* vertical layout */
     background: url("images/bg1.png") no-repeat center center / cover;
     position: relative;
     margin-top: 60px;
@@ -540,11 +541,18 @@ nav {
 }
 
 .hero-content {
-	text-align: center;
-	z-index: 1;
-	padding: 2rem;
-	max-width: 800px;
-	position: relative;
+    width: 100%;                 /* NEW - makes it fill horizontally */
+    height: 100%;                /* needed for bottom alignment */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;         /* NEW - center its inner content */
+    text-align: center;
+    z-index: 1;
+    padding: 2rem;
+    max-width: 800px;
+    position: relative;
+    flex: 1;
 }
 
 .hero-content h1 {
@@ -557,6 +565,7 @@ nav {
 
 .hero-content p {
 	font-size: 1.3rem;
+    background: #8badd3;
 	color: rgba(255, 255, 255, 0.9);
 	margin-bottom: 2rem;
 	animation: fadeInUp 1s ease 0.2s;
@@ -575,6 +584,8 @@ nav {
 	animation: fadeInUp 1s ease 0.4s;
 	animation-fill-mode: both;
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    margin-top: auto;
 }
 
 .cta-button:hover {
