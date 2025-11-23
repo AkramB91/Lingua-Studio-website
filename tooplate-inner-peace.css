@@ -719,7 +719,7 @@ nav {
 	font-size: 2.5rem;
 	margin-bottom: 1rem;
 	position: relative;
-	color: var(--dark);
+    color: #741422 !important;
 }
 
 .section-subtitle {
