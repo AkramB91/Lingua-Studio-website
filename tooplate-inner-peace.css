@@ -977,6 +977,20 @@ nav {
     transform: translateY(-10px);
     box-shadow: 0 20px 45px rgba(0,0,0,0.15);
 }
+.club-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.club-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* Icons */
 .club-icon {
