@@ -627,8 +627,8 @@ nav {
 }
 
 .about-images img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 80%;
     border-radius: 15px;
     object-fit: cover;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
