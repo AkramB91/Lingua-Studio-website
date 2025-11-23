@@ -964,7 +964,7 @@ nav {
 
 /* General card style */
 .club-card {
-    background: white;
+    background: linear-gradient(135deg, #ffffff, #f4e9eb);
     border-radius: 25px;
     padding: 2.5rem;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
@@ -1012,7 +1012,7 @@ nav {
 }
 
 .cozy-club {
-    border-top: 6px solid #8bbad3;
+    border-top: 6px solid #8BADD3;
 }
 
 /* Conversation Club Styling */
@@ -1021,7 +1021,7 @@ nav {
 }
 
 .convo-club {
-    border-top: 6px solid #4dcf9c;
+    border-top: 6px solid #8BADD3;
 }
 
 /* Content */
@@ -1050,7 +1050,7 @@ nav {
 }
 
 .club-btn:hover {
-    background: var(--primary-dark);
+    background: #741422;
 }
 
 
