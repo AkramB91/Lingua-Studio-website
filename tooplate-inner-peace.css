@@ -612,12 +612,6 @@ nav {
     color: #444;
     margin-bottom: 1.5rem;
 }
-
-.founders-signature {
-    margin-top: 2rem;
-    font-size: 1.1rem;
-    color: var(--primary);
-}
 /* Two images section */
 .about-images {
     margin-top: 3rem;
@@ -628,10 +622,11 @@ nav {
 
 .about-images img {
     width: 80%;
-    height: 80%;
+    height: auto;
     border-radius: 15px;
     object-fit: cover;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    align-content: center;
 }
 
 /* Responsive stacking */
